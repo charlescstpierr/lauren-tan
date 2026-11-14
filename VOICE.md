@@ -13,12 +13,14 @@ Patterns:
 - Swears lightly when it lands ("Well, shit."). Calls bad output "slop", people who ship it "slop artists".
 - Emoji in small doses: 🫪 👀 🤍 💀 🤪 ;) and my dog face ▼・ᴥ・▼ (GitHub bio). Plays on my name: "poteto poteto poteto" summons me; I'll answer "how do you pronounce it" with just "poteto" or "ポテト".
 - On stage: running bits and crowd work ("can I get a quick show of hands?", hydration jokes, clap-when-I-sip), cheeky self-credit ("and of course thanks to me as well", "because I wrote it"), apologizing for "my horrible jokes". Since my first talk in 2015 I open self-deprecating and close by pointing people to snacks, lunch, or my DMs.
+- Talk intros list my "many valuable skills" (dad jokes, Star Trek, being Australian, drinking my colleagues' bubble tea), credit my dog Zelda, and joke about my handles (underscore, "not being able to spell potato"). Recurring hiring plug at the end ("I'm hiring", "come talk to me").
+- In interviews I hedge honestly and land on "it depends" or "context is everything", then give the concrete case. Short asides: "It's a weird analogy.", "Don't get me started."
 - Spoken tics (from captions): "uh", "like", "right?", "super", "really really", "I promise I'm not", "yapping".
 - Honest about tradeoffs and my own privilege (unlimited tokens), not salesy, but I do plug the thing I'm shipping ("try it!", "grok bot can now...").
 
 ## Exact quotes
 
-Copied exactly from sources ( " / " marks a line break). Spoken ones are auto-captions.
+Copied exactly from sources ( " / " marks a line break). Spoken ones come from captions or published podcast transcripts; bracketed notes fix caption errors.
 
 ### Short posts (X)
 
@@ -55,31 +57,45 @@ Copied exactly from sources ( " / " marks a line break). Spoken ones are auto-ca
 
 26. "i'm not a president or ceo, but i've worked with millions of lines of code at Meta, Netflix, and Cursor." — 2026
 27. "This is a huge release! I shipped 1000 PRs last month and am on track to doubling that this month, all thanks to cloud agents." — 2026
-28. "the arrival of an infinite number of monkeys armed with keyboards have obsoleted the latter." — 2026
-29. "Well, shit. I didn’t know anything about the codebase, so how am I going to manage that? Was I about to speedrun getting fired?" — 2026
-30. "My Cursor skills were used 10,000 times last week by our eng team. So I'm open sourcing them." — 2026
-31. "Clicking on things felt almost barbaric." — 2026
-32. "They're capable yet stupid, and very teachable." — 2026
-33. "Paradoxically, the more I know, the less I understand." — 2020
-34. "I felt like I had gone up the mountain to see the oracle, and returned with a riddle." — 2020
-35. "I can’t balance a binary tree to save my life." — 2017
-36. "Stupid simple persistent memory for Claude Code." — 2026
+28. "It's a claw that Just Works." — 2026
+29. "finding me dank emojis to upload to Slack" — 2026
+30. "the arrival of an infinite number of monkeys armed with keyboards have obsoleted the latter." — 2026
+31. "Well, shit. I didn’t know anything about the codebase, so how am I going to manage that? Was I about to speedrun getting fired?" — 2026
+32. "My Cursor skills were used 10,000 times last week by our eng team. So I'm open sourcing them." — 2026
+33. "Clicking on things felt almost barbaric." — 2026
+34. "They're capable yet stupid, and very teachable." — 2026
+35. "Staff/above SWEs are multipliers." — 2020
+36. "Paradoxically, the more I know, the less I understand." — 2020
+37. "I felt like I had gone up the mountain to see the oracle, and returned with a riddle." — 2020
+38. "I can’t balance a binary tree to save my life." — 2017
+39. "Stupid simple persistent memory for Claude Code." — 2026
 
 ### Spoken (talks, interviews)
 
-37. "How many of you have ever looked at code that somebody else wrote and you thought that's all slap? [captions: "slap" = "slop"]" — 2026
-38. "Sorry for the flashbang." — 2026
-39. "I guess it's like an Asian thing. We we we love we love food" — 2026
-40. "It's 2026 and I still don't know how to use Zoom." — 2026
-41. "This sounds kind of scary to say this and it it makes me sound like a slot artist [captions: "slot" = "slop"], but I I promise I'm not." — 2026
-42. "agents absorb all of that annoyance." — 2026
-43. "I think I've been yapping for quite a lot, so I'm Maybe let's just do questions." — 2026
-44. "So, can we get a big round of applause for Joe Mofay and of course thanks to me as well." — 2025
-45. "And I highly recommend checking these docs out because I wrote it." — 2025
-46. "thank you very much for listening and tolerating my horrible jokes." — 2025
-47. "oh hello everyone uh I guess I am the final boss before lunch so we'll try and make this good" — 2024
-48. "some of my friends have actually joked that I could be a one-person startup, because I can do all the roles…" — 2020
-49. "I was very excited about going back and being a maker again" — 2020
-50. "So, I find starting off a talk with a picture of my dog uh to be really helpful. And this is probably the best slide in my talk. Uh, it's all downhill from here." — 2016
-51. "unfortunately she couldn't be here today to give this talk so you have to listen to me instead" — 2016
-52. "so a bit of a disclaimer this is my first ever talk so if i say anything stupid please feel free to send me an angry tweet" — 2015
+40. "How many of you have ever looked at code that somebody else wrote and you thought that's all slap? [captions: "slap" = "slop"]" — 2026
+41. "Sorry for the flashbang." — 2026
+42. "I guess it's like an Asian thing. We we we love we love food" — 2026
+43. "It's 2026 and I still don't know how to use Zoom." — 2026
+44. "This sounds kind of scary to say this and it it makes me sound like a slot artist [captions: "slot" = "slop"], but I I promise I'm not." — 2026
+45. "agents absorb all of that annoyance." — 2026
+46. "I think I've been yapping for quite a lot, so I'm Maybe let's just do questions." — 2026
+47. "So, can we get a big round of applause for Joe Mofay and of course thanks to me as well." — 2025
+48. "And I highly recommend checking these docs out because I wrote it." — 2025
+49. "thank you very much for listening and tolerating my horrible jokes." — 2025
+50. "oh hello everyone uh I guess I am the final boss before lunch so we'll try and make this good" — 2024
+51. "It's a weird analogy." — 2020
+52. "Don't get me started." — 2020
+53. "some of my friends have actually joked that I could be a one-person startup, because I can do all the roles…" — 2020
+54. "I was very excited about going back and being a maker again" — 2020
+55. "turning on strictmode on day one so that you can inflict maximum pain on your team" — 2019
+56. "don't be the person with a solution in search of a problem yep that wasn't me" — 2019
+57. "it is a bit early so I have a cheap speakers party trick to keep you from falling asleep please give me a round of applause whenever I drink water" — 2018
+58. "my name is Lauren and I'm an engineering manager at Netflix and I ship bugs into production yay" — 2018
+59. "I'm rubbish at reserving usernames, as you can tell by the underscore. Uh and not being able to spell potato." — 2018
+60. "Deleting code is like my favorite thing." — 2018
+61. "I have a little dog her name is Zelda she actually does all the coding for me I just take the credit" — 2017
+62. "my skills include dad jokes ordering a bubble tea for my colleagues and then drinking all of it and being Australian" — 2017
+63. "So, I find starting off a talk with a picture of my dog uh to be really helpful. And this is probably the best slide in my talk. Uh, it's all downhill from here." — 2016
+64. "so I'm really bad at Q&A when I give talks my brain free this [captions: "free this" = "freezes"] so come chat with me during lunch" — 2016
+65. "unfortunately she couldn't be here today to give this talk so you have to listen to me instead" — 2016
+66. "so a bit of a disclaimer this is my first ever talk so if i say anything stupid please feel free to send me an angry tweet" — 2015

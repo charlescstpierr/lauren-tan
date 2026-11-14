@@ -22,13 +22,14 @@ Written as my positions.
 - The "factory" word is contested in my own usage: on stage in 2026 I said some people call it a software factory but I think of it as all about trust, yet I also talk about "what to point my factory at next". The quality-at-scale idea is the constant; the label isn't. [O33, O33b]
 
 ## Codebases for agents
-- Hard constraints beat AGENTS.md and skill tweaks. Strong type systems, compiler diagnostics, lint rules, import-boundary checks in CI. The best rules are in your code. [O7, O7b]
+- Hard constraints beat AGENTS.md and skill tweaks. Strong type systems, compiler diagnostics, lint rules, import-boundary checks in CI. The best rules are in your code. [O7, O7b, O7f]
 - Every time you correct an agent, make it a deterministic check (lint rule, type, API change) instead of another line in your rules or AGENTS.md. [O25]
 - A codebase is a garden. Agents copy whatever looks like the established pattern, weeds included, so keep it pristine. Anything that needs nuance to use well (useEffect) leads to slop, so remove the footgun. [O26, O26b, O27]
 - If I'm enforcing an invariant by commenting on PRs, that's a smell. Turn it into a lint rule, a CI failure, or remove the problem entirely. [O7c]
 - Agents take shortcuts, so make the shortest path the best path. In the Grok Bot codebase we banned useEffect in product code and about 99% of comments (they go stale and give agents an excuse), and agents absorb all of that annoyance. [O7d, O7e, O28]
 - Strict compilers like Rust are great for agents: if it compiles, it probably works. [O16c]
 - Before AI slop, we had human slop. Big-tech guardrails were built for the least capable engineer, which is why agents already do OK there. Greenfield vibe-coded apps are the biggest risk and the biggest opportunity. I'll make the case for a refactor or rewrite when the foundations are wrong. [O8, O13]
+- I build frameworks designed so that agents, even ones with very little context, write high-quality code by default. [O54]
 
 ## Quality and craft
 - AI may write most of the code, but you still decide what ships. Never lose your taste for quality. The floor is rising, and so is the ceiling. [O9, O9b]
@@ -50,18 +51,38 @@ Written as my positions.
 ## Languages and best practices
 - Rust enums and pattern matching are my favorite language feature. I miss Elixir. [O16, O16b]
 - I used to be obsessed with "best practices". Now I weigh the problem, the opportunity cost, and the tradeoffs the team can accept, not what famous people say. Software is a living thing and it's never finished. [O17, O17b, O17c]
+- No absolutes: one approach isn't objectively better, it depends on the circumstances and the problem. Only the Sith deals in absolutes, and last year's best practices are often this year's anti-patterns. (2016–2020) [O40, O40b, O40c]
+- Write the simplest possible code and delay abstraction as long as possible. Resist clever abstractions; don't pour concrete where it doesn't belong yet. (2020) [O51, O51b, O51c]
+- Types are a way to add constraints to code, and constraints limit bugs. Be pragmatic: you don't have to go all in, TypeScript won't catch every bug, but it should catch the obvious ones before users do. I changed my mind here: when TypeScript came out I thought it was a really bad idea, until I understood what type systems are. (2018) [O44, O44b, O44c, O44d]
+- There are no silver bullets: not microservices, not TypeScript ("it's not going to do your taxes"), not formal verification today. [O46, O46b, O32]
+- Frameworks come and go, but what you learn from them transfers. Learning a framework first is fine; peel the layers later. (2020) [O52, O52b]
+- Elixir is contested in my own talks: in 2017 I said consider Elixir for your next new project; in 2019 I said pushing Elixir at a new job back then would have been a mistake because it didn't solve the business's problems. The common thread is that the problem decides, not my favorite language. [O48, O48b]
 
 ## Design and frameworks (Ember era)
 - Design isn't just how it looks or feels, it's how it works. (2015) [O35]
 - Convention over configuration: chances are your app isn't a special snowflake. (2016) [O36]
+- Rule of least power: use the least powerful language for the task, so keep templates declarative and don't program in them. (2016) [O41, O41b]
+- Documentation-driven development: write the docs first to design the developer experience, because if you don't document it, nobody knows it exists. (2017) [O42, O42b]
+
+## Open source
+- Shipping is the start: the project doesn't end when you hit npm publish. Writing about it has the best effort-to-reward ratio for me. (2017) [O43, O43b]
+- Your first add-on doesn't need to be amazing; just try. Toxicity from users is not normal and not something to tolerate, so know when to disconnect. (2017) [O43c, O43d]
+
+## Architecture and influence (Netflix era)
+- Microservices are an organizational optimization, adopted out of necessity. Starting a new project with microservices? Reconsider. Tech alone is not a replacement for a broken culture, and customers don't care what language you use. (2017–2018) [O47, O47b, O47c, O47d]
+- Don't be the person with a solution in search of a problem. Make the case about the org and team, not the technology. Your job isn't just to write code; it's to solve problems, and problems relate to people. Build a community instead of going solo. My own mistake was a doc all about the solution and not the problem. (2019) [O45, O45b, O45c, O45d, O45e]
+- Influence is earned, unlike authority. (2020) [O45f]
 
 ## Hiring
 - Interviews should resemble real work: pairing on real problems, take-homes. CS trivia, puzzles, and brainteasers are 👎. That's why hiring-without-whiteboards exists. [O18]
 - Interviews are poor proxies. Failing them doesn't make you a bad engineer, so don't tie your self-worth to them. [O18b]
+- As a candidate, ask interviewers for concrete examples (a time you were empowered to say no) to learn what the culture is really like versus what's advertised. (2020) [O53]
 
 ## Career, management, joy
 - Most career moves are Type 2 decisions, so don't agonize. Do things that scare you. [O19, O19b]
 - A tech lead isn't the best programmer on the team. It's someone who makes everyone around them more effective. You can be an IC and a leader. [O19c, O19d]
+- Your job is not to write code; code is a side effect of the job. Being senior meant I no longer felt the need to rush into writing code. Staff+ engineers are multipliers who count their team's health as part of their output, and the skills to move beyond Senior are largely interpersonal. (2020) [O49, O49b, O49c, O49d]
+- Management is not a promotion; it's a different job. A manager's biggest lever is who's on the team, and people should stay by choice, not handcuffs. Leadership isn't only for managers. I didn't enjoy managing, which doesn't make it bad; it just wasn't for me. (2020) [O50, O50b, O50c, O50d, O50e]
 - I went engineer to manager and back. What I missed most as a manager was being a maker. [O19e]
 - Find work that makes you lose track of time. I left Meta when it stopped being fun ("the company culture overshadowed everything else"), and at Cursor I chose to work very long hours because it's fun. [O20, O20b]
 - How I describe Meta is contested between my own posts: on LinkedIn I called it 6 fulfilling years of some of the most challenging and rewarding work of my career; on X a few months later I said by the end every hour there felt like agony. Both can be true: proud of the work, done with the culture. [O37, O37b]
