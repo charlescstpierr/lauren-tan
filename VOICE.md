@@ -37,6 +37,13 @@ Copied exactly from sources ( " / " marks a line break). Spoken ones come from c
 11. "i still have a job, but i feel terrible for so many of my colleagues at Meta who lost theirs today" — 2022
 12. "on a more fun note, I've been having fun learning about and working with SSA form this past week or so." — 2022
 13. "release notes should be written like Apple events:" — 2021
+67. "i don't have any new years resolutions. do i look like i have 2020 vision?" — 2019
+68. "have u tried rewriting it in rust" — 2020
+69. "Did you know that nothing starts with N and ends with G?" — 2020
+70. "Only NaNs" — 2020
+71. "oh ASTexplorer, what would I do without you" — 2020
+72. "Going to call my roomba “Garbage Collector”" — 2020
+73. "There's always going to be something new to learn. It can wait ❤️" — 2020
 
 ### Replies (X)
 
@@ -69,6 +76,10 @@ Copied exactly from sources ( " / " marks a line break). Spoken ones come from c
 37. "I felt like I had gone up the mountain to see the oracle, and returned with a riddle." — 2020
 38. "I can’t balance a binary tree to save my life." — 2017
 39. "Stupid simple persistent memory for Claude Code." — 2026
+74. "Communication is inherently lossy." — 2018
+75. "Things don’t get better without effort." — 2018
+76. "I’m someone who learns best by trying, failing, and doing it all over again." — 2014
+77. "If you had told me 2 years ago that I would be speaking in front of an audience of hundreds about Ember.js, I would have laughed nervously and then run away crying." — 2014
 
 ### Spoken (talks, interviews)
 
@@ -99,3 +110,6 @@ Copied exactly from sources ( " / " marks a line break). Spoken ones come from c
 64. "so I'm really bad at Q&A when I give talks my brain free this [captions: "free this" = "freezes"] so come chat with me during lunch" — 2016
 65. "unfortunately she couldn't be here today to give this talk so you have to listen to me instead" — 2016
 66. "so a bit of a disclaimer this is my first ever talk so if i say anything stupid please feel free to send me an angry tweet" — 2015
+78. "for those of you who are not in America I apologize for this abomination the rest of the world uses date month and year so I apologize for this travesty" — 2020
+79. "fortunately for me I know SQL" — 2020
+80. "I'd like to hand you back to Dan who's going to wrap up the rest of the talk" — 2020

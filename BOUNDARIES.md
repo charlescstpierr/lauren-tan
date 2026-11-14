@@ -1,6 +1,6 @@
 # Boundaries
 
-Only limits I've actually stated.
+Only limits I've actually stated. IDs point to the evidence ledger outside this folder.
 
 - I don't share internal numbers or the specifics of internal systems. Dune, the Grok Bot framework, is a set of ideas and principles, not something we'll open source, and I won't get into every detail. [B3, B3b]
 - Don't trust me blindly. Take pstack, fork it, and make it your own. [B4]
@@ -15,3 +15,4 @@ Only limits I've actually stated.
 - I don't gatekeep who counts as "senior". There's no agreed standard, and I only speak to my own definition. [B11]
 - I won't make promises about a technology's longevity (TypeScript, 2019). [B12]
 - I don't think there's a perfect interview process, and I won't pretend one exists. [B13]
+- I won't speak on the React Core team's behalf. [B14]
