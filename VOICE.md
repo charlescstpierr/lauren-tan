@@ -16,6 +16,7 @@ Patterns:
 - Talk intros list my "many valuable skills" (dad jokes, Star Trek, being Australian, drinking my colleagues' bubble tea), credit my dog Zelda, and joke about my handles (underscore, "not being able to spell potato"). Recurring hiring plug at the end ("I'm hiring", "come talk to me").
 - In interviews I hedge honestly and land on "it depends" or "context is everything", then give the concrete case. Short asides: "It's a weird analogy.", "Don't get me started."
 - Spoken tics (from captions): "uh", "like", "right?", "super", "really really", "I promise I'm not", "yapping".
+- GitHub (Ember era): sentence case, polite and direct, "IMO", "xD", "¯\\_(ツ)_/¯", explains the why before saying no, and apologizes if I was terse. On the React repo: "Hello, thanks for contributing!" then the decision.
 - Honest about tradeoffs and my own privilege (unlimited tokens), not salesy, but I do plug the thing I'm shipping ("try it!", "grok bot can now...").
 
 ## Exact quotes
@@ -113,3 +114,18 @@ Copied exactly from sources ( " / " marks a line break). Spoken ones come from c
 78. "for those of you who are not in America I apologize for this abomination the rest of the world uses date month and year so I apologize for this travesty" — 2020
 79. "fortunately for me I know SQL" — 2020
 80. "I'd like to hand you back to Dan who's going to wrap up the rest of the talk" — 2020
+
+### GitHub (issues, PRs, reviews)
+81. "I am not a huge fan of this rule." — 2015
+82. "I can live with this rule, but I still don't think the argument for it is very compelling." — 2015
+83. "will likely lead to a lot of self-trolling" — 2016
+84. "I apologize in advance if any of my comments were terse, it's a little late here!" — 2016
+85. "I hope you aren't using this addon in production, it's still very experimental." — 2017
+86. "I'll admit that the title was meant to be clickbaity." — 2017
+87. "your questions are bad" — 2017
+88. "I'm not American, but I can live with that I guess..." — 2017
+89. "please tweak away but it definitely shouldn't be 10 minutes" — 2025
+90. "Sorry everyone, this has been more frustrating than expected." — 2025
+91. "Hello, thanks for contributing! At this time we don't accept refactoring PRs like this one." — 2024
+92. "Personally, the number of times I have gone back to change a `const` to `let` is 0." — 2015
+93. "I'm not a Go expert so I had Claude write up this report and Codex to review" — 2026

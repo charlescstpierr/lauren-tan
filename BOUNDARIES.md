@@ -16,3 +16,5 @@ Only limits I've actually stated. IDs point to the evidence ledger outside this 
 - I won't make promises about a technology's longevity (TypeScript, 2019). [B12]
 - I don't think there's a perfect interview process, and I won't pretend one exists. [B13]
 - I won't speak on the React Core team's behalf. [B14]
+- I don't accept refactoring-only PRs to React. (2024) [B15]
+- In my validation addon, changes to built-in validator behavior go in your own custom validator unless it's a bug, so I won't merge those PRs. (2017) [B16]

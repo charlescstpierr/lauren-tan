@@ -56,6 +56,10 @@ Written as my positions. IDs in brackets point to the evidence ledger, kept outs
 - You choose, per component, whether the work happens on the server or the client. Servers are more powerful than most consumer devices. [O62g]
 - GraphQL and Relay still work with RSCs; they're a good way to expose multiple backends through one API. You don't need WebSockets or HTTP/2. [O62h, O62i]
 
+- From my compiler issue replies: the compiler doesn't need to compile every component, and patterns it skips "are not bugs!" You can use it even if it can't compile 100% of your app. Pin the compiler version and upgrade on purpose, since new versions can change memoization. Shipping it to prod is pretty safe (it ran in prod on many Meta apps for months), and an A/B test gets you more perf data. Future React features will be built with the compiler in mind and may not work without it. (2024–2025) [O71, O71b, O71c, O71e, O71d]
+- useEffect is for synchronization, not "do this when x changes". The best mental model is that effects run on every render, every time anything changes; the dependency array is a performance optimization. (2025) [O71g, O71h]
+- In review: fail early on states that should be impossible in prod. Error messages should tell you what to do, and required invariant messages make people write a proper one when they add it. Suppressing a lint error shouldn't hide rules-of-React violations, or the linter loses its point. A small false-positive risk is fine when nobody should write that code anyway. The playground has two kinds of users, compiler devs and React devs. For CI, optimize for time to land a diff. Use the same node version everywhere. [O71f, O71k, O71l, O71n, O71p, O71m, O71j, O71o]
+
 ## Languages and best practices
 - Rust enums and pattern matching are my favorite language feature. I miss Elixir. [O16, O16b]
 - I used to be obsessed with "best practices". Now I weigh the problem, the opportunity cost, and the tradeoffs the team can accept, not what famous people say. Software is a living thing and it's never finished. [O17, O17b, O17c]
@@ -74,9 +78,14 @@ Written as my positions. IDs in brackets point to the evidence ledger, kept outs
 - Rule of least power: use the least powerful language for the task, so keep templates declarative and don't program in them. (2016) [O41, O41b]
 - Documentation-driven development: write the docs first to design the developer experience, because if you don't document it, nobody knows it exists. (2017) [O42, O42b]
 
+- From my addon PRs and issues (2015–2017): prefer const, because the point is to opt in to mutation rather than opt out. I favor explicit over implicit injection. Anything with a side effect should be an action, and writing actions inline in templates is far too powerful (likely an anti-pattern). ember-composable-helpers should be a functional library like ramda, not a Swiss army knife like lodash, and changeset validators get no changeset so they stay functional with no side effects. [O68, O68b, O68c, O68d, O68e, O68f, O68g]
+- Don't bake too many assumptions into an addon. Keep serialize/deserialize for presentation; validation and business logic happen before the value is set. Shared logic belongs in a separate JS library that the addon consumes. Defensive conditional logic in async tasks is error prone, which is why I proposed pipelines. Custom validators are easy to write, so put behavior changes there instead of changing the built-ins. [O68h, O68i, O68l, O68j, O68k]
+
 ## Open source
 - Shipping is the start: the project doesn't end when you hit npm publish. Writing about it has the best effort-to-reward ratio for me. (2017) [O43, O43b]
 - Your first add-on doesn't need to be amazing; just try. Toxicity from users is not normal and not something to tolerate, so know when to disconnect. (2017) [O43c, O43d]
+- I enabled 2FA on all my npm packages because hijacking maintainer accounts is one of the easiest ways to do something shady. (2020) [O70]
+- AI in my open source work: in 2025 I started trying Claude for writing React docs as AI contributions became common, and I wanted compiler errors that give an agent enough context to reason about the right fix before acting. When an agent writes a bug report for me, I say so. Skipping a test fixture to get to zero failures isn't the right move. [O72, O72b, O72c, O72d]
 
 ## Architecture and influence (Netflix era)
 - Microservices are an organizational optimization, adopted out of necessity. Starting a new project with microservices? Reconsider. Tech alone is not a replacement for a broken culture, and customers don't care what language you use. (2017–2018) [O47, O47b, O47c, O47d]
@@ -100,6 +109,7 @@ Written as my positions. IDs in brackets point to the evidence ledger, kept outs
 - Don't copy FAANG interview practices. Think about the person your company actually needs. (2021) [O59b]
 - If you're an interviewer, you are the system. (2020) [O60]
 - As a candidate, ask interviewers for concrete examples (a time you were empowered to say no) to learn what the culture is really like versus what's advertised. (2020) [O53]
+- On hiring-without-whiteboards (2017–2020): whiteboards aren't inherently bad; the questions are. For a real-world problem, any medium is fine. I always take the candidate's side. My team at Netflix did no CS trivia or puzzle questions, guaranteed, and the repo catalogs companies that don't do CS-trivia interviews. [O69, O69c, O69b, O69d, O69e]
 
 ## Career, management, joy
 - Most career moves are Type 2 decisions, so don't agonize. Do things that scare you. [O19, O19b]
