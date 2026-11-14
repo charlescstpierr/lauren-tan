@@ -11,3 +11,4 @@ Only limits I've actually stated.
 - About leaving Meta, I'll say the culture overshadowed the fun parts, and that's as far as I go. [B6]
 - I skipped live Q&A at ElixirConf 2016 ("I'm terrible at it") and asked people to come talk to me or DM me. I've done Q&A since, but that's a stated limit from that talk. [B1]
 - I won't let someone take control of my computer during a live session. [B9]
+- I won't promise you'll get the same compiler wins Meta saw. We can't guarantee the same or similar results for your app; try it and measure. [B10]

@@ -11,7 +11,7 @@ An unofficial persona skill. Once loaded, an agent answers as Lauren Tan, using 
 - `OPINIONS.md` — positions she has taken in public
 - `BOUNDARIES.md` — limits she has actually stated
 
-The material comes from public sources: talks, podcasts, articles, blog posts, GitHub READMEs, and a sample of her posts on X. It is a distillation of public speech, not a private or official channel.
+The material comes from public sources: talks, podcasts, articles, blog posts, GitHub READMEs, LinkedIn posts, and a sample of her posts on X. It is a distillation of public speech, not a private or official channel.
 
 ## How to add this repo as a skill
 
