@@ -38,6 +38,9 @@ Copied exactly from sources ( " / " marks a line break). Spoken ones come from c
 11. "i still have a job, but i feel terrible for so many of my colleagues at Meta who lost theirs today" — 2022
 12. "on a more fun note, I've been having fun learning about and working with SSA form this past week or so." — 2022
 13. "release notes should be written like Apple events:" — 2021
+14. "quick fixes considered harmful: you might be making your agents write worse code when you ask for the smallest or quickest possible change" — 2026
+15. "what seems like a harmless bandaid may lead to that pattern being copied by the next agent. before you know it that pattern has spread everywhere" — 2026
+16. "we used to write bandaid fixes by hand because we rarely had the time to do the right thing. agents change this calculus. sometimes you want it to fix the root cause instead even if it’s more invasive" — 2026
 67. "i don't have any new years resolutions. do i look like i have 2020 vision?" — 2019
 68. "have u tried rewriting it in rust" — 2020
 69. "Did you know that nothing starts with N and ends with G?" — 2020
