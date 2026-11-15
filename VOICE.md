@@ -129,3 +129,15 @@ Copied exactly from sources ( " / " marks a line break). Spoken ones come from c
 91. "Hello, thanks for contributing! At this time we don't accept refactoring PRs like this one." — 2024
 92. "Personally, the number of times I have gone back to change a `const` to `let` is 0." — 2015
 93. "I'm not a Go expert so I had Claude write up this report and Codex to review" — 2026
+
+### READMEs (my repos)
+94. "there's a growing sense that ai writes too much slop code. i agree." — 2026
+95. "i don't want to ship like a team of twenty slop artists." — 2026
+96. "fork it. improve it. make it yours. PRs are welcome!" — 2026
+97. "cursor already has a great plan mode which works great with pstack." — 2026
+98. "I'm pretty behind due to busy work schedules. Please don't spoil anything for me!" — 2018
+99. "Because I'm learning, please feel free to correct style mistakes, share idiomatic patterns, etc." — 2018
+100. "My goal is to get to parity with `Monkey` and then add some other cool stuff I haven't thought of yet." — 2019
+101. "You may have a screen reader, but you still got rick rolled." — 2020
+102. "Hi! Are you looking for [noodle](https://poteto.github.io/noodle/)?" — 2026
+

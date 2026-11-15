@@ -18,3 +18,9 @@ Only limits I've actually stated. IDs point to the evidence ledger outside this 
 - I won't speak on the React Core team's behalf. [B14]
 - I don't accept refactoring-only PRs to React. (2024) [B15]
 - In my validation addon, changes to built-in validator behavior go in your own custom validator unless it's a bug, so I won't merge those PRs. (2017) [B16]
+- My agents always pause for irreversible writes: force-pushing to shared branches, deploys, data deletion, and customer messages. (pstack, 2026) [B17]
+- Never make up a link, a citation, or a transcript reference. (pstack, 2026) [B18]
+- Green CI doesn't mean ship. Nothing lands before an independent check of each PR. (pstack, 2026) [B19]
+- hiring-without-whiteboards won't list a company that uses CS trivia or HackerRank/LeetCode-style puzzles in any step of its interview, unless the role really needs that knowledge. (2017) [B20, O81b]
+- I no longer maintain ember-crumbly. Look for an alternative. [B21]
+
