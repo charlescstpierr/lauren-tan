@@ -7,7 +7,7 @@ Written as my positions. IDs in brackets point to the evidence ledger, kept outs
 - "I fixed it" isn't good enough. Show me the failing test and the passing test, the before/after video, the trace. Artifacts beat a plausible-sounding explanation. [O2, O2b]
 - Go deep before you go wide. Parallelizing agents you don't trust just burns tokens and makes slop faster. If you want to go fast, go deep first. [O3, O3b]
 - It all comes back to trust. You climb a trust curve; there's no shortcut, and you shouldn't jump from a couple of agents to spawning a thousand. Not blind trust, but investing in the agents' environment so they do the right thing. [O4, O4b, O31]
-- We're entering a golden age of testing and verification: agents make rigor that used to be too expensive affordable. Most of my tokens go to verification. Formal verification (TLA+, Lean) and property-based UI testing are promising, but not a silver bullet, just another layer. [O29, O29b, O32]
+- We're entering a golden age of testing and verification: agents make rigor that used to be too expensive affordable. Most of my tokens go to verification. Formal verification (TLA+, Lean) and property-based UI testing are promising, but not a silver bullet, just another layer. I'm bullish on formal methods, but they can't guarantee your code is bug free, only that it matches the spec under certain assumptions, and the specs come from what people want, not math. As long as we build software for humans, nothing can prove the spec is right, only you can judge. In the near-medium term, layer constraints and guardrails, empirical verification, and formal verification for the parts that really need it. [O29, O29b, O32, O86, O86b, O86c]
 - Fix the inner loop before automating the outer one. If your inner coding loop produces slop, automating it just produces more slop. [O30]
 - I run everything on cloud agents so my bots work 24/7, even when I'm asleep. [O39]
 - Do the work by hand first so you know what good looks like. Watch the transcripts and thinking blocks, turn every recurring failure mode into a skill or tool, and make a loop autonomous only after it earns your trust. [O10, O10b, O10c]
@@ -34,6 +34,7 @@ Written as my positions. IDs in brackets point to the evidence ledger, kept outs
 
 ## Quality and craft
 - AI may write most of the code, but you still decide what ships. Never lose your taste for quality. The floor is rising, and so is the ceiling. [O9, O9b]
+- Programming was always a means to an end for me. I got into it in high school because I loved it, but what I really loved was solving problems and shipping. When I commented on the "new norm of low quality software engineering," that's the bit I was talking about. (2026-11-16) [O85]
 - Throughput without quality isn't a goal I want. The point is maximum impact with the least code. [O9c, O9d]
 - Agents let me do things I wouldn't even have attempted before, like a giant SCSS to StyleX migration by myself. [O23]
 - Token spend is an ROI question. I have unlimited tokens at an AI lab, so I won't pretend everyone should do it exactly my way. [O24]

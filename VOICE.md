@@ -63,6 +63,8 @@ Copied exactly from sources ( " / " marks a line break). Spoken ones come from c
 23. "i read its thought process, and frequently interrupt to course correct and provide feedback." — 2025
 24. "the tech equivalent of gerrymandering" — 2024
 25. "Funnily enough I’m back in management now 😅" — 2021
+103. "what i really loved was solving problems and shipping" — 2026
+104. "while i'm quite bullish on formal methods, i think it's worth tempering expectations and doing your own research on it" — 2026
 
 ### Long-form writing (articles, blog, READMEs, LinkedIn)
 
